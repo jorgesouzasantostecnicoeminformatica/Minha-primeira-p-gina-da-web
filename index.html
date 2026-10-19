@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Minha Página Pessoal - Jorge</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            color: #333333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #172554, #2563eb);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .foto {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+        }
+
+        header h1 {
+            margin-bottom: 5px;
+        }
+
+        header p {
+            margin-top: 5px;
+        }
+
+        main {
+            max-width: 750px;
+            margin: 25px auto;
+            padding: 25px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px #00000015;
+        }
+
+        h2 {
+            color: #2563eb;
+            border-bottom: 2px solid #dbeafe;
+            padding-bottom: 5px;
+        }
+
+        .interesses {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .interesses span {
+            background-color: #dbeafe;
+            color: #1e40af;
+            padding: 8px 14px;
+            border-radius: 20px;
+        }
+
+        .botao {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .botao:hover {
+            background-color: #172554;
+        }
+
+        footer {
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                margin: 15px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="foto.jpg" alt="Foto de Jorge" class="foto">
+
+        <h1>Olá! Eu sou Jorge</h1>
+
+        <p>Professor e estudante de Informática</p>
+
+        <p>Educação, tecnologia e aprendizagem!</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sobre mim</h2>
+
+            <p>
+                Sou professor do ensino fundamental e médio.
+                Acredito na educação como caminho para transformar
+                vidas e ampliar oportunidades.
+            </p>
+
+            <p>
+                Atualmente, estou estudando Informática e aprendendo
+                a desenvolver páginas para a internet.
+            </p>
+        </section>
+
+        <section>
+            <h2>Minha formação</h2>
+
+            <p>
+                Tenho formação na área da educação e interesse
+                em ampliar meus conhecimentos sobre tecnologia,
+                informática e recursos digitais.
+            </p>
+        </section>
+
+        <section>
+            <h2>Meus interesses</h2>
+
+            <div class="interesses">
+                <span>Educação</span>
+                <span>Tecnologia</span>
+                <span>Informática</span>
+                <span>Artes</span>
+                <span>Aprendizagem</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Meu objetivo</h2>
+
+            <p>
+                Aprender programação web, desenvolver novas
+                habilidades digitais e utilizar a tecnologia
+                para criar soluções criativas na educação.
+            </p>
+        </section>
+
+        <section>
+            <h2>Meu GitHub</h2>
+
+            <p>
+                Este é meu espaço de aprendizagem e desenvolvimento
+                de projetos na área de tecnologia.
+            </p>
+
+            <a class="botao"
+               href="https://github.com/"
+               target="_blank">
+                Conheça o GitHub
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Jorge | 2026</p>
+        <p>Minha primeira página pessoal na Web!</p>
+    </footer>
+
+</body>
+</html>
