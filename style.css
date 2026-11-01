@@ -1,0 +1,141 @@
+
+/* Configurações gerais */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(135deg, #172554, #2563eb);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+/* Fotografia */
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 750px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #00000015;
+}
+
+h2 {
+    color: #2563eb;
+    border-bottom: 2px solid #dbeafe;
+    padding-bottom: 5px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Listas */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Interesses */
+.interesses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.interesses span {
+    background-color: #dbeafe;
+    color: #1e40af;
+    padding: 8px 14px;
+    border-radius: 20px;
+}
+
+/* Links */
+a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #172554;
+    text-decoration: underline;
+}
+
+/* Botão */
+.botao {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.botao:hover {
+    background-color: #172554;
+    color: white;
+}
+
+/* Formulário */
+form {
+    margin-top: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 15px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* Rodapé */
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Adaptação para celulares */
+@media (max-width: 600px) {
+    main {
+        margin: 15px;
+        padding: 20px;
+    }
+}
