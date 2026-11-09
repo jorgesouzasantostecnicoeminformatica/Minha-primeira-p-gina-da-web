@@ -14,7 +14,6 @@ Nesta etapa, a página pessoal foi aprimorada com a utilização de CSS Grid Lay
 - Ajustes de espaçamento e responsividade.
 
 ## Captura de tela da nova versão
-
 ![Página pessoal atualizada](paginaatualizada.png)
 
 
