@@ -157,6 +157,94 @@ footer {
     margin-top: 30px;
 }
 
+/* Organização dos cartões com Grid Layout */
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* Aparência dos cartões */
+
+.card {
+    background-color: white;
+    border: 1px solid #dbeafe;
+    border-radius: 10px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.card h3 {
+    color: #2563eb;
+    margin: 0;
+}
+
+.card p {
+    margin: 0;
+}
+
+/* Organização das tags com Flexbox */
+
+.card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.card-tags span {
+    background-color: #dbeafe;
+    color: #1e40af;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+/* Organização geral da página com Grid */
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+}
+
+footer {
+    grid-area: footer;
+}
+
+/* Utilização de grid-column */
+
+.secao-tecnologias {
+    grid-column: 1 / -1;
+}
+
+/* Adaptação para celulares */
+
+@media (max-width: 600px) {
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media (max-width: 600px) {
     main {
         margin: 15px;
