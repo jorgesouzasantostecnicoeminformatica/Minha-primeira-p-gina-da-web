@@ -15,7 +15,7 @@ Nesta etapa, a página pessoal foi aprimorada com a utilização de CSS Grid Lay
 
 ## Captura de tela da nova versão
 
-![Página pessoal atualizada](página atualizada.png)
+![Página pessoal atualizada](páginaatualizada.png)
 
 
 # Minha-primeira-p-gina-na-Web-
