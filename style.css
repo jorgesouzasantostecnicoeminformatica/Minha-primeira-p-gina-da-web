@@ -54,9 +54,9 @@ main {
     border-radius: 0.9375rem;
     box-shadow: 0 0.25rem 0.75rem #00000015;
 
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1.25rem;
+display: grid;
+grid-template-columns: 1fr;
+gap: 1.25rem;
 }
 
 /* Seções */
@@ -187,8 +187,9 @@ button[type="reset"] {
 /* Cartões com Grid Layout */
 .cards-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
     gap: 1.25rem;
+}
 }
 
 .card {
@@ -239,7 +240,10 @@ footer {
 }
 
 /* ADAPTAÇÃO PARA TABLETS */
-@media (max-width: 768px) {
+
+/* ADAPTAÇÃO PARA TABLETS */
+@media (min-width: 768px) {
+
     header {
         padding: 2rem 1rem;
     }
@@ -254,6 +258,21 @@ footer {
         gap: 1rem;
     }
 }
+
+/* ADAPTAÇÃO PARA COMPUTADORES */
+@media (min-width: 1024px) {
+
+    main {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    .cards-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1.25rem;
+    }
+}
+
 
 /* ADAPTAÇÃO PARA CELULARES */
 @media (max-width: 600px) {
