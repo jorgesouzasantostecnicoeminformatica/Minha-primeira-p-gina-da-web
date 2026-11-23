@@ -29,7 +29,7 @@ A página foi testada em computador, tablet e celular, apresentando uma organiza
 ![Tablet](capturetablet.png)
 
 ### Versão para celular
-![Celular](capturecelular.jpg)
+![Celular](capturecelular.png)
 
 # Nova atividade – Flexbox e Grid Layout
 
