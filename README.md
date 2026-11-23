@@ -23,13 +23,13 @@ A página foi testada em computador, tablet e celular, apresentando uma organiza
 ## Testes de responsividade
 
 ### Versão para computador
-![Computador](tela-computador.png)
+![Computador](capturecomputador.png)
 
 ### Versão para tablet
-![Tablet](tela-tablet.png)
+![Tablet](capturetablet.png)
 
 ### Versão para celular
-![Celular](tela-celular.jpg)
+![Celular](capturecelular.jpg)
 
 # Nova atividade – Flexbox e Grid Layout
 
